@@ -3,8 +3,6 @@ package com.tencoding.bank.repository.model;
 import java.sql.Timestamp;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 //@Getter
 //@Setter
