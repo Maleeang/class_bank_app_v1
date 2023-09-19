@@ -16,14 +16,13 @@
 				</tr>
 			</thead>
 			<tbody>
+				<c:forEach var="account" items="${resultAccountList}">
 				<tr>
-					<td>1111</td>
-					<td>500원</td>
+					<td>${account.getNumber()}</td>
+					<td>${account.getBalance()}</td>
 				</tr>
-				<tr>
-					<td>2222</td>
-					<td>200원</td>
-				</tr>
+				</c:forEach>
+
 			</tbody>
 		</table>
       </div>

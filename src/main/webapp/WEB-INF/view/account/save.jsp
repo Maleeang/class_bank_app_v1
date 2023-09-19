@@ -8,7 +8,7 @@
       <h2>계좌 생성 페이지(인증)</h2>
       <h5>어서오세요 환영합니다</h5>
       <div class="bg-light p-md-5 h-75">
-      	<form action="/user/sign-proc" method="post">
+      	<form action="/account/save" method="post">
 		  <div class="form-group">
 		    <label for="number">계좌 번호:</label>
 		    <input type="text" class="form-control" placeholder="생성 계좌 번호 입력" id="number" name="number">
