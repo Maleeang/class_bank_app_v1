@@ -18,8 +18,8 @@
 			<tbody>
 				<c:forEach var="account" items="${resultAccountList}">
 				<tr>
-					<td>${account.getNumber()}</td>
-					<td>${account.getBalance()}</td>
+					<td><a href="/account/detail/${account.getId()}">${account.getNumber()}</a></td>
+					<td><a href="/account/detail/${account.getId()}">${account.getBalance()}</a></td>
 				</tr>
 				</c:forEach>
 
